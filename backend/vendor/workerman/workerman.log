@@ -1,0 +1,680 @@
+2019-12-31 17:37:14 pid:23661 Workerman[index.php] start in DEBUG mode
+2019-12-31 17:38:08 pid:23661 Workerman[index.php] stopping ...
+2019-12-31 17:38:08 pid:23661 Workerman[index.php] has been stopped
+2019-12-31 17:38:11 pid:23681 Workerman[index.php] start in DEBUG mode
+2019-12-31 17:39:34 pid:23681 Workerman[index.php] stopping ...
+2019-12-31 17:39:34 pid:23681 Workerman[index.php] has been stopped
+2019-12-31 17:39:35 pid:23787 Workerman[index.php] start in DEBUG mode
+2019-12-31 17:39:54 pid:23787 Workerman[index.php] stopping ...
+2019-12-31 17:39:54 pid:23787 Workerman[index.php] has been stopped
+2019-12-31 17:39:58 pid:23795 Workerman[index.php] start in DEBUG mode
+2019-12-31 17:40:32 pid:23795 Workerman[index.php] stopping ...
+2019-12-31 17:40:32 pid:23795 Workerman[index.php] has been stopped
+2019-12-31 17:40:35 pid:23808 Workerman[index.php] start in DEBUG mode
+2019-12-31 17:50:01 pid:23808 Workerman[index.php] stopping ...
+2019-12-31 17:50:01 pid:23808 Workerman[index.php] has been stopped
+2019-12-31 17:50:13 pid:23907 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 17:53:29 pid:23907 Workerman[index.php] stopping ...
+2019-12-31 17:53:29 pid:23907 Workerman[index.php] has been stopped
+2019-12-31 17:53:30 pid:24183 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 17:53:51 pid:24183 Workerman[index.php] stopping ...
+2019-12-31 17:53:51 pid:24183 Workerman[index.php] has been stopped
+2019-12-31 17:53:52 pid:24200 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 17:54:18 pid:24200 Workerman[index.php] stopping ...
+2019-12-31 17:54:18 pid:24200 Workerman[index.php] has been stopped
+2019-12-31 17:54:20 pid:24230 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 17:59:38 pid:24230 Workerman[index.php] stopping ...
+2019-12-31 17:59:38 pid:24230 Workerman[index.php] has been stopped
+2019-12-31 17:59:39 pid:24318 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 17:59:51 pid:24318 Workerman[index.php] stopping ...
+2019-12-31 17:59:52 pid:24318 Workerman[index.php] has been stopped
+2019-12-31 17:59:54 pid:24325 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:01:17 pid:24325 Workerman[index.php] stopping ...
+2019-12-31 18:01:17 pid:24325 Workerman[index.php] has been stopped
+2019-12-31 18:01:18 pid:24391 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:05:47 pid:24391 Workerman[index.php] stopping ...
+2019-12-31 18:05:47 pid:24391 Workerman[index.php] has been stopped
+2019-12-31 18:05:47 pid:24474 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:12:34 pid:24474 Workerman[index.php] stopping ...
+2019-12-31 18:12:34 pid:24474 Workerman[index.php] has been stopped
+2019-12-31 18:12:35 pid:24727 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:12:36 pid:24728 Worker[24728] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:36 pid:24727 worker[PHPSocketIO:24728] exit with status 65280
+2019-12-31 18:12:36 pid:24729 Worker[24729] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:36 pid:24727 worker[PHPSocketIO:24729] exit with status 65280
+2019-12-31 18:12:37 pid:24733 Worker[24733] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:37 pid:24727 worker[PHPSocketIO:24733] exit with status 65280
+2019-12-31 18:12:37 pid:24734 Worker[24734] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:37 pid:24727 worker[PHPSocketIO:24734] exit with status 65280
+2019-12-31 18:12:38 pid:24735 Worker[24735] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:38 pid:24727 worker[PHPSocketIO:24735] exit with status 65280
+2019-12-31 18:12:39 pid:24736 Worker[24736] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:39 pid:24727 worker[PHPSocketIO:24736] exit with status 65280
+2019-12-31 18:12:39 pid:24738 Worker[24738] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:39 pid:24727 worker[PHPSocketIO:24738] exit with status 65280
+2019-12-31 18:12:40 pid:24739 Worker[24739] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:40 pid:24727 worker[PHPSocketIO:24739] exit with status 65280
+2019-12-31 18:12:40 pid:24740 Worker[24740] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:40 pid:24727 worker[PHPSocketIO:24740] exit with status 65280
+2019-12-31 18:12:41 pid:24741 Worker[24741] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:41 pid:24727 worker[PHPSocketIO:24741] exit with status 65280
+2019-12-31 18:12:41 pid:24742 Worker[24742] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:41 pid:24727 worker[PHPSocketIO:24742] exit with status 65280
+2019-12-31 18:12:42 pid:24743 Worker[24743] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:43 pid:24727 worker[PHPSocketIO:24743] exit with status 65280
+2019-12-31 18:12:43 pid:24744 Worker[24744] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:43 pid:24727 worker[PHPSocketIO:24744] exit with status 65280
+2019-12-31 18:12:43 pid:24745 Worker[24745] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:43 pid:24727 worker[PHPSocketIO:24745] exit with status 65280
+2019-12-31 18:12:44 pid:24746 Worker[24746] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:44 pid:24727 worker[PHPSocketIO:24746] exit with status 65280
+2019-12-31 18:12:44 pid:24747 Worker[24747] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:44 pid:24727 worker[PHPSocketIO:24747] exit with status 65280
+2019-12-31 18:12:44 pid:24748 Worker[24748] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:44 pid:24727 worker[PHPSocketIO:24748] exit with status 65280
+2019-12-31 18:12:45 pid:24750 Worker[24750] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:45 pid:24727 worker[PHPSocketIO:24750] exit with status 65280
+2019-12-31 18:12:45 pid:24751 Worker[24751] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:46 pid:24727 worker[PHPSocketIO:24751] exit with status 65280
+2019-12-31 18:12:46 pid:24752 Worker[24752] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:46 pid:24727 worker[PHPSocketIO:24752] exit with status 65280
+2019-12-31 18:12:47 pid:24753 Worker[24753] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:47 pid:24727 worker[PHPSocketIO:24753] exit with status 65280
+2019-12-31 18:12:47 pid:24754 Worker[24754] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:47 pid:24727 worker[PHPSocketIO:24754] exit with status 65280
+2019-12-31 18:12:47 pid:24755 Worker[24755] process terminated with ERROR: E_ERROR "Uncaught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/public/index.php:13
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(1 in /home/gui/Documentos/Messenger/backend/public/index.php on line 13"
+2019-12-31 18:12:47 pid:24727 worker[PHPSocketIO:24755] exit with status 65280
+2019-12-31 18:12:48 pid:24727 Workerman[index.php] stopping ...
+2019-12-31 18:12:48 pid:24727 Workerman[index.php] has been stopped
+2019-12-31 18:13:07 pid:24762 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:13:08 pid:24763 Worker[24763] process terminated with ERROR: E_ERROR "Uncaught Error: Cannot use object of type PHPSocketIO\Socket as array in /home/gui/Documentos/Messenger/backend/public/index.php:14
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect(' in /home/gui/Documentos/Messenger/backend/public/index.php on line 14"
+2019-12-31 18:13:08 pid:24762 worker[PHPSocketIO:24763] exit with status 65280
+2019-12-31 18:13:09 pid:24764 Worker[24764] process terminated with ERROR: E_ERROR "Uncaught Error: Cannot use object of type PHPSocketIO\Socket as array in /home/gui/Documentos/Messenger/backend/public/index.php:14
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect(' in /home/gui/Documentos/Messenger/backend/public/index.php on line 14"
+2019-12-31 18:13:09 pid:24762 worker[PHPSocketIO:24764] exit with status 65280
+2019-12-31 18:13:09 pid:24765 Worker[24765] process terminated with ERROR: E_ERROR "Uncaught Error: Cannot use object of type PHPSocketIO\Socket as array in /home/gui/Documentos/Messenger/backend/public/index.php:14
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->connect(' in /home/gui/Documentos/Messenger/backend/public/index.php on line 14"
+2019-12-31 18:13:09 pid:24762 worker[PHPSocketIO:24765] exit with status 65280
+2019-12-31 18:13:09 pid:24762 Workerman[index.php] stopping ...
+2019-12-31 18:13:09 pid:24762 Workerman[index.php] has been stopped
+2019-12-31 18:14:24 pid:24908 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:14:52 pid:24908 Workerman[index.php] stopping ...
+2019-12-31 18:14:52 pid:24908 Workerman[index.php] has been stopped
+2019-12-31 18:14:53 pid:24942 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:16:14 pid:24942 Workerman[index.php] stopping ...
+2019-12-31 18:16:14 pid:24942 Workerman[index.php] has been stopped
+2019-12-31 18:16:15 pid:25029 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:16:20 pid:25029 Workerman[index.php] stopping ...
+2019-12-31 18:16:20 pid:25029 Workerman[index.php] has been stopped
+2019-12-31 18:16:22 pid:25043 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:18:19 pid:25043 Workerman[index.php] stopping ...
+2019-12-31 18:18:19 pid:25043 Workerman[index.php] has been stopped
+2019-12-31 18:18:20 pid:25107 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:35:15 pid:25107 Workerman[index.php] stopping ...
+2019-12-31 18:35:15 pid:25107 Workerman[index.php] has been stopped
+2019-12-31 18:35:19 pid:25593 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:36:14 pid:25593 Workerman[index.php] stopping ...
+2019-12-31 18:36:14 pid:25593 Workerman[index.php] has been stopped
+2019-12-31 18:36:15 pid:25661 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:37:02 pid:25661 Workerman[index.php] stopping ...
+2019-12-31 18:37:02 pid:25661 Workerman[index.php] has been stopped
+2019-12-31 18:37:03 pid:25704 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:38:21 pid:25704 Workerman[index.php] stopping ...
+2019-12-31 18:38:21 pid:25704 Workerman[index.php] has been stopped
+2019-12-31 18:38:24 pid:25758 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:39:08 pid:25758 Workerman[index.php] stopping ...
+2019-12-31 18:39:08 pid:25758 Workerman[index.php] has been stopped
+2019-12-31 18:39:09 pid:25877 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:40:56 pid:25877 Workerman[index.php] stopping ...
+2019-12-31 18:40:56 pid:25877 Workerman[index.php] has been stopped
+2019-12-31 18:40:57 pid:25944 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:41:39 pid:25944 Workerman[index.php] stopping ...
+2019-12-31 18:41:39 pid:25944 Workerman[index.php] has been stopped
+2019-12-31 18:41:41 pid:25977 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:42:12 pid:25977 Workerman[index.php] stopping ...
+2019-12-31 18:42:12 pid:25977 Workerman[index.php] has been stopped
+2019-12-31 18:42:12 pid:25997 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:43:00 pid:25997 Workerman[index.php] stopping ...
+2019-12-31 18:43:00 pid:25997 Workerman[index.php] has been stopped
+2019-12-31 18:43:01 pid:26021 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:47:05 pid:26021 Workerman[index.php] stopping ...
+2019-12-31 18:47:05 pid:26021 Workerman[index.php] has been stopped
+2019-12-31 18:47:12 pid:26096 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:47:47 pid:26096 Workerman[index.php] stopping ...
+2019-12-31 18:47:47 pid:26096 Workerman[index.php] has been stopped
+2019-12-31 18:47:53 pid:26114 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:49:13 pid:26114 Workerman[index.php] stopping ...
+2019-12-31 18:49:13 pid:26114 Workerman[index.php] has been stopped
+2019-12-31 18:49:14 pid:26140 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:50:39 pid:26140 Workerman[index.php] stopping ...
+2019-12-31 18:50:39 pid:26140 Workerman[index.php] has been stopped
+2019-12-31 18:50:46 pid:26298 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:51:33 pid:26298 Workerman[index.php] stopping ...
+2019-12-31 18:51:33 pid:26298 Workerman[index.php] has been stopped
+2019-12-31 18:51:38 pid:26324 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:54:10 pid:26324 Workerman[index.php] stopping ...
+2019-12-31 18:54:10 pid:26324 Workerman[index.php] has been stopped
+2019-12-31 18:54:32 pid:26373 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:55:26 pid:26373 Workerman[index.php] stopping ...
+2019-12-31 18:55:26 pid:26373 Workerman[index.php] has been stopped
+2019-12-31 18:55:27 pid:26401 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:55:58 pid:26401 Workerman[index.php] stopping ...
+2019-12-31 18:55:58 pid:26401 Workerman[index.php] has been stopped
+2019-12-31 18:55:59 pid:26420 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:58:15 pid:26420 Workerman[index.php] stopping ...
+2019-12-31 18:58:15 pid:26420 Workerman[index.php] has been stopped
+2019-12-31 18:58:16 pid:26564 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 18:59:20 pid:26564 Workerman[index.php] stopping ...
+2019-12-31 18:59:20 pid:26564 Workerman[index.php] has been stopped
+2019-12-31 18:59:21 pid:26626 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 19:15:41 pid:26626 Workerman[index.php] stopping ...
+2019-12-31 19:15:41 pid:26626 Workerman[index.php] has been stopped
+2019-12-31 19:15:43 pid:27105 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 19:16:17 pid:27105 Workerman[index.php] stopping ...
+2019-12-31 19:16:17 pid:27105 Workerman[index.php] has been stopped
+2019-12-31 19:16:18 pid:27111 Workerman[public/index.php] start in DEBUG mode
+2019-12-31 19:26:51 pid:27111 Workerman[index.php] stopping ...
+2019-12-31 19:26:51 pid:27111 Workerman[index.php] has been stopped
+2019-12-31 19:51:02 pid:30233 Workerman[src/config/sockets.php] start in DEBUG mode
+2019-12-31 19:54:06 pid:30233 Workerman[sockets.php] stopping ...
+2019-12-31 19:54:06 pid:30233 Workerman[sockets.php] has been stopped
+2020-01-01 00:11:12 pid:11694 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-01 00:21:05 pid:11694 Workerman[sockets.php] stopping ...
+2020-01-01 00:21:05 pid:11694 Workerman[sockets.php] has been stopped
+2020-01-01 00:21:06 pid:11973 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-01 00:21:30 pid:11973 Workerman[sockets.php] stopping ...
+2020-01-01 00:21:30 pid:11973 Workerman[sockets.php] has been stopped
+2020-01-01 00:21:32 pid:11998 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-01 00:25:22 pid:11998 Workerman[sockets.php] stopping ...
+2020-01-01 00:25:22 pid:11998 Workerman[sockets.php] has been stopped
+2020-01-01 00:25:26 pid:12127 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-01 00:25:48 pid:12127 Workerman[sockets.php] stopping ...
+2020-01-01 00:25:48 pid:12127 Workerman[sockets.php] has been stopped
+2020-01-01 00:25:49 pid:12147 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-01 00:26:36 pid:12147 Workerman[sockets.php] stopping ...
+2020-01-01 00:26:36 pid:12147 Workerman[sockets.php] has been stopped
+2020-01-01 00:26:37 pid:12169 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-01 00:26:48 pid:12169 Workerman[sockets.php] stopping ...
+2020-01-01 00:26:48 pid:12169 Workerman[sockets.php] has been stopped
+2020-01-01 00:26:48 pid:12181 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-01 00:28:00 pid:12181 Workerman[sockets.php] stopping ...
+2020-01-01 00:28:00 pid:12181 Workerman[sockets.php] has been stopped
+2020-01-01 00:28:02 pid:12224 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-01 00:28:18 pid:12224 Workerman[sockets.php] stopping ...
+2020-01-01 00:28:18 pid:12224 Workerman[sockets.php] has been stopped
+2020-01-01 00:28:18 pid:12233 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-01 00:28:33 pid:12233 Workerman[sockets.php] stopping ...
+2020-01-01 00:28:33 pid:12233 Workerman[sockets.php] has been stopped
+2020-01-01 00:28:34 pid:12240 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-01 00:37:20 pid:12240 Workerman[sockets.php] stopping ...
+2020-01-01 00:37:20 pid:12240 Workerman[sockets.php] has been stopped
+2020-01-01 00:37:21 pid:12500 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-01 00:38:08 pid:12500 Workerman[sockets.php] stopping ...
+2020-01-01 00:38:08 pid:12500 Workerman[sockets.php] has been stopped
+2020-01-01 00:38:08 pid:12529 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-01 00:38:14 pid:12530 Error: Call to undefined function alert() in /home/gui/Documentos/Messenger/backend/src/config/sockets.php:15
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('send', Array)
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#8 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#9 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["send",{"to":...')
+#10 [internal function]: PHPSocketIO\Client->ondata('2["send",{"to":...')
+#11 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#12 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["send",{"to":...')
+#13 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#14 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#15 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#16 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#17 [internal function]: PHPSocketIO\Engine\Transport->onData('42["send",{"to"...')
+#18 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["send",{"to"...')
+#19 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Connection/TcpConnection.php(656): PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["send",{"to"...')
+#20 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Events/Select.php(292): Workerman\Connection\TcpConnection->baseRead(Resource id #46)
+#21 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(2399): Workerman\Events\Select->loop()
+#22 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1534): Workerman\Worker->run()
+#23 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1364): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#24 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1338): Workerman\Worker::forkWorkersForLinux()
+#25 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(539): Workerman\Worker::forkWorkers()
+#26 /home/gui/Documentos/Messenger/backend/src/config/sockets.php(20): Workerman\Worker::runAll()
+#27 {main}
+2020-01-01 00:38:14 pid:12530 Worker[12530] process terminated
+2020-01-01 00:38:14 pid:12529 worker[PHPSocketIO:12530] exit with status 64000
+2020-01-01 00:38:32 pid:12529 Workerman[sockets.php] stopping ...
+2020-01-01 00:38:32 pid:12529 Workerman[sockets.php] has been stopped
+2020-01-01 00:38:33 pid:12551 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-01 00:39:33 pid:12551 Workerman[sockets.php] stopping ...
+2020-01-01 00:39:34 pid:12551 Workerman[sockets.php] has been stopped
+2020-01-01 00:39:34 pid:12632 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-01 00:43:43 pid:12632 Workerman[sockets.php] stopping ...
+2020-01-01 00:43:43 pid:12632 Workerman[sockets.php] has been stopped
+2020-01-01 00:43:44 pid:12920 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-01 00:45:01 pid:12920 Workerman[sockets.php] stopping ...
+2020-01-01 00:45:01 pid:12920 Workerman[sockets.php] has been stopped
+2020-01-01 00:45:02 pid:13032 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-01 00:46:04 pid:13032 Workerman[sockets.php] stopping ...
+2020-01-01 00:46:04 pid:13032 Workerman[sockets.php] has been stopped
+2020-01-01 00:46:08 pid:13072 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-01 00:46:20 pid:13073 Error: Cannot use object of type PHPSocketIO\SocketIO as array in /home/gui/Documentos/Messenger/backend/src/config/sockets.php:16
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('send', Array)
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#8 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#9 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["send",{"to":...')
+#10 [internal function]: PHPSocketIO\Client->ondata('2["send",{"to":...')
+#11 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#12 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["send",{"to":...')
+#13 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#14 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#15 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#16 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#17 [internal function]: PHPSocketIO\Engine\Transport->onData('42["send",{"to"...')
+#18 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["send",{"to"...')
+#19 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Connection/TcpConnection.php(656): PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["send",{"to"...')
+#20 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Events/Select.php(292): Workerman\Connection\TcpConnection->baseRead(Resource id #68)
+#21 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(2399): Workerman\Events\Select->loop()
+#22 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1534): Workerman\Worker->run()
+#23 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1364): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#24 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1338): Workerman\Worker::forkWorkersForLinux()
+#25 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(539): Workerman\Worker::forkWorkers()
+#26 /home/gui/Documentos/Messenger/backend/src/config/sockets.php(20): Workerman\Worker::runAll()
+#27 {main}
+2020-01-01 00:46:20 pid:13073 Worker[13073] process terminated
+2020-01-01 00:46:20 pid:13072 worker[PHPSocketIO:13073] exit with status 64000
+2020-01-01 00:46:33 pid:13111 Error: Cannot use object of type PHPSocketIO\SocketIO as array in /home/gui/Documentos/Messenger/backend/src/config/sockets.php:16
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('send', Array)
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#8 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#9 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["send",{"to":...')
+#10 [internal function]: PHPSocketIO\Client->ondata('2["send",{"to":...')
+#11 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#12 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["send",{"to":...')
+#13 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#14 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#15 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#16 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#17 [internal function]: PHPSocketIO\Engine\Transport->onData('42["send",{"to"...')
+#18 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["send",{"to"...')
+#19 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Connection/TcpConnection.php(656): PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["send",{"to"...')
+#20 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Events/Select.php(292): Workerman\Connection\TcpConnection->baseRead(Resource id #67)
+#21 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(2399): Workerman\Events\Select->loop()
+#22 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1534): Workerman\Worker->run()
+#23 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1364): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#24 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1338): Workerman\Worker::forkWorkersForLinux()
+#25 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1668): Workerman\Worker::forkWorkers()
+#26 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1617): Workerman\Worker::monitorWorkersForLinux()
+#27 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(541): Workerman\Worker::monitorWorkers()
+#28 /home/gui/Documentos/Messenger/backend/src/config/sockets.php(20): Workerman\Worker::runAll()
+#29 {main}
+2020-01-01 00:46:33 pid:13111 Worker[13111] process terminated
+2020-01-01 00:46:33 pid:13072 worker[PHPSocketIO:13111] exit with status 64000
+2020-01-01 00:46:45 pid:13072 Workerman[sockets.php] stopping ...
+2020-01-01 00:46:45 pid:13072 Workerman[sockets.php] has been stopped
+2020-01-01 00:46:47 pid:13154 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-01 00:47:07 pid:13155 Error: Cannot use object of type PHPSocketIO\Socket as array in /home/gui/Documentos/Messenger/backend/src/config/sockets.php:16
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('send', Array)
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#8 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#9 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["send",{"to":...')
+#10 [internal function]: PHPSocketIO\Client->ondata('2["send",{"to":...')
+#11 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#12 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["send",{"to":...')
+#13 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#14 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#15 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#16 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#17 [internal function]: PHPSocketIO\Engine\Transport->onData('42["send",{"to"...')
+#18 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["send",{"to"...')
+#19 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Connection/TcpConnection.php(656): PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["send",{"to"...')
+#20 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Events/Select.php(292): Workerman\Connection\TcpConnection->baseRead(Resource id #66)
+#21 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(2399): Workerman\Events\Select->loop()
+#22 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1534): Workerman\Worker->run()
+#23 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1364): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#24 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1338): Workerman\Worker::forkWorkersForLinux()
+#25 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(539): Workerman\Worker::forkWorkers()
+#26 /home/gui/Documentos/Messenger/backend/src/config/sockets.php(20): Workerman\Worker::runAll()
+#27 {main}
+2020-01-01 00:47:07 pid:13155 Worker[13155] process terminated
+2020-01-01 00:47:07 pid:13154 worker[PHPSocketIO:13155] exit with status 64000
+2020-01-01 00:47:17 pid:13181 Error: Cannot use object of type PHPSocketIO\Socket as array in /home/gui/Documentos/Messenger/backend/src/config/sockets.php:16
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('send', Array)
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#8 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#9 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["send",{"to":...')
+#10 [internal function]: PHPSocketIO\Client->ondata('2["send",{"to":...')
+#11 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#12 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["send",{"to":...')
+#13 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#14 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#15 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#16 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#17 [internal function]: PHPSocketIO\Engine\Transport->onData('42["send",{"to"...')
+#18 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["send",{"to"...')
+#19 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Connection/TcpConnection.php(656): PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["send",{"to"...')
+#20 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Events/Select.php(292): Workerman\Connection\TcpConnection->baseRead(Resource id #61)
+#21 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(2399): Workerman\Events\Select->loop()
+#22 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1534): Workerman\Worker->run()
+#23 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1364): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#24 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1338): Workerman\Worker::forkWorkersForLinux()
+#25 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1668): Workerman\Worker::forkWorkers()
+#26 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1617): Workerman\Worker::monitorWorkersForLinux()
+#27 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(541): Workerman\Worker::monitorWorkers()
+#28 /home/gui/Documentos/Messenger/backend/src/config/sockets.php(20): Workerman\Worker::runAll()
+#29 {main}
+2020-01-01 00:47:17 pid:13181 Worker[13181] process terminated
+2020-01-01 00:47:17 pid:13154 worker[PHPSocketIO:13181] exit with status 64000
+2020-01-01 00:47:37 pid:13198 Error: Cannot use object of type PHPSocketIO\Socket as array in /home/gui/Documentos/Messenger/backend/src/config/sockets.php:16
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('send', Array)
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#8 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#9 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["send",{"to":...')
+#10 [internal function]: PHPSocketIO\Client->ondata('2["send",{"to":...')
+#11 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#12 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["send",{"to":...')
+#13 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#14 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#15 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#16 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#17 [internal function]: PHPSocketIO\Engine\Transport->onData('42["send",{"to"...')
+#18 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["send",{"to"...')
+#19 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Connection/TcpConnection.php(656): PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["send",{"to"...')
+#20 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Events/Select.php(292): Workerman\Connection\TcpConnection->baseRead(Resource id #61)
+#21 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(2399): Workerman\Events\Select->loop()
+#22 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1534): Workerman\Worker->run()
+#23 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1364): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#24 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1338): Workerman\Worker::forkWorkersForLinux()
+#25 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1668): Workerman\Worker::forkWorkers()
+#26 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1617): Workerman\Worker::monitorWorkersForLinux()
+#27 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(541): Workerman\Worker::monitorWorkers()
+#28 /home/gui/Documentos/Messenger/backend/src/config/sockets.php(20): Workerman\Worker::runAll()
+#29 {main}
+2020-01-01 00:47:37 pid:13198 Worker[13198] process terminated
+2020-01-01 00:47:37 pid:13154 worker[PHPSocketIO:13198] exit with status 64000
+2020-01-01 00:48:15 pid:13218 Error: Cannot use object of type PHPSocketIO\Socket as array in /home/gui/Documentos/Messenger/backend/src/config/sockets.php:16
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('send', Array)
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#8 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#9 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["send",{"to":...')
+#10 [internal function]: PHPSocketIO\Client->ondata('2["send",{"to":...')
+#11 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#12 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["send",{"to":...')
+#13 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#14 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#15 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#16 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#17 [internal function]: PHPSocketIO\Engine\Transport->onData('42["send",{"to"...')
+#18 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["send",{"to"...')
+#19 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Connection/TcpConnection.php(656): PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["send",{"to"...')
+#20 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Events/Select.php(292): Workerman\Connection\TcpConnection->baseRead(Resource id #66)
+#21 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(2399): Workerman\Events\Select->loop()
+#22 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1534): Workerman\Worker->run()
+#23 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1364): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#24 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1338): Workerman\Worker::forkWorkersForLinux()
+#25 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1668): Workerman\Worker::forkWorkers()
+#26 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1617): Workerman\Worker::monitorWorkersForLinux()
+#27 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(541): Workerman\Worker::monitorWorkers()
+#28 /home/gui/Documentos/Messenger/backend/src/config/sockets.php(20): Workerman\Worker::runAll()
+#29 {main}
+2020-01-01 00:48:15 pid:13218 Worker[13218] process terminated
+2020-01-01 00:48:15 pid:13154 worker[PHPSocketIO:13218] exit with status 64000
+2020-01-01 00:48:30 pid:13154 Workerman[sockets.php] stopping ...
+2020-01-01 00:48:30 pid:13154 Workerman[sockets.php] has been stopped
+2020-01-01 00:48:31 pid:13283 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-01 00:50:38 pid:13283 Workerman[sockets.php] stopping ...
+2020-01-01 00:50:38 pid:13283 Workerman[sockets.php] has been stopped
+2020-01-01 00:50:39 pid:13416 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-01 13:48:31 pid:7040 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-01 14:02:57 pid:7040 Workerman[sockets.php] stopping ...
+2020-01-01 14:02:57 pid:7040 Workerman[sockets.php] has been stopped
+2020-01-01 14:02:58 pid:8176 Workerman[src/config/sockets.php] start in DEBUG mode
