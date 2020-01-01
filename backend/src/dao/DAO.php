@@ -60,14 +60,6 @@ class DAO
         Database::getResultsFromQuery("INSERT INTO " . static::$tableName . "(" . implode(',', static::$columns) . ")" . $values);
     }
 
-    public static function stats() {
-        return array(
-            'users' => UserDAO::count(),
-            'categories' => CategoryDAO::count(),
-            'articles' => ArticleDAO::count()
-        );
-    }
-
     public static function getFormatedValue($value)
     {
         if (is_null($value)) {

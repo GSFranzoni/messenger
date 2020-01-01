@@ -24,20 +24,45 @@
             bordered
             content-class="bg-grey-2"
         >
+            <q-input outlined v-model="query" label="Buscar" style='margin: 10px;'>
+                <template v-slot:append>
+                    <q-icon
+                        v-if="query !== ''"
+                        name="close"
+                        class="cursor-pointer"
+                        @click='query=""'
+                    />
+                    <q-icon name="search" />
+                </template>
+            </q-input>
             <q-list>
                 <q-item-label header>Usuários</q-item-label>
-                <q-item @click='goToChat(u)' v-for='u in users' :key='u.id' clickable tag="a" target="_blank" class='user'>
+                <transition-group name='list-complete'>
+                    <q-item
+                    @click="goToChat(u)"
+                    v-for="u in filtered"
+                    :key="u.id"
+                    clickable
+                    tag="a"
+                    target="_blank"
+                    class="user"
+                >
                     <q-item-section avatar>
-                        <q-avatar size='45px'>
-                            <img :src="`https://api.adorable.io/avatars/45/${u.id}.png`" alt="user-avatar">
+                        <q-avatar size="45px">
+                            <img
+                                :src="`https://api.adorable.io/avatars/45/${u.id}.png`"
+                                alt="user-avatar"
+                            />
                         </q-avatar>
                     </q-item-section>
                     <q-item-section>
                         <q-item-label>{{ u.name }}</q-item-label>
                         <q-item-label caption>{{ u.email }}</q-item-label>
                     </q-item-section>
-                    <q-avatar class='self-center' size='5px' color="red"></q-avatar>
+                    <q-avatar class="self-center" size="5px" color="green"></q-avatar>
                 </q-item>
+                </transition-group>
+                
             </q-list>
         </q-drawer>
 
@@ -53,15 +78,18 @@ import axios from "axios";
 import { baseApiUrl, getRandomColor } from "../global";
 
 export default {
-    computed: {...mapState({
-                user: "user"
-            })
+    computed: {
+        ...mapState({
+            user: "user"
+        })
     },
     name: "MyLayout",
     data() {
         return {
             leftDrawerOpen: true,
-            users: []
+            users: [],
+            query: '',
+            filtered: []
         };
     },
     methods: {
@@ -70,32 +98,38 @@ export default {
         },
         goToChat: function(u) {
             this.$router.push({
-                name: 'Chat',
+                name: "Chat",
                 params: {
-                    'to': u.id
+                    to: u.id
                 }
-            })
+            });
         }
     },
     mounted: function() {
         axios.get(`${baseApiUrl}/users`).then(response => {
             this.users = response.data.data;
+            this.filtered = {...this.users}
         });
     },
     filters: {
         upper: function(value) {
             return value.toUpperCase();
         }
+    },
+    watch: {
+        query: function() {
+            this.filtered = this.users.filter(
+                user => {
+                    return user.name.toLowerCase().indexOf(this.query.toLowerCase()) !== -1
+                }
+            )
+        }
     }
 };
 </script>
 
 <style>
-    .user:hover > a {
-        background-color: rgba(0, 0, 0, 0.2);
-    }
-
-    .user:active > a {
-        background-color: rgba(0, 0, 0, 0.4);
-    }
+.list-complete-move {
+    transition: all 1s;
+}
 </style>

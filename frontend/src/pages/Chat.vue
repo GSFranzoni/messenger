@@ -1,6 +1,11 @@
 <template>
     <q-page v-if="to && user" class="chat column justify-end items-center">
-        <transition-group name='flip-list' enter-active-class="animated slideInUp" leave-active-class="none" mode="out-in">
+        <transition-group
+            name="flip-list"
+            enter-active-class="animated slideInUp"
+            leave-active-class="none"
+            mode="out-in"
+        >
             <q-chat-message
                 v-for="message in chat"
                 :key="message.id"
@@ -10,8 +15,16 @@
                 :avatar="`https://api.adorable.io/avatars/45/${message.from==$store.state.user.name? user.id: to.id}.png`"
                 :sent="message.from==$store.state.user.name"
             />
+            <q-chat-message 
+                v-if='typing' 
+                key='9999999999'
+                :name="to.name"
+                :avatar="`https://api.adorable.io/avatars/45/${to.id}.png`"
+            >
+                <q-spinner-dots size="2rem" />
+            </q-chat-message>
         </transition-group>
-        <q-input class="message" v-model="message" label="Mensagem">
+        <q-input class="message" v-model="message" label="Mensagem" @keyup.enter="sendMessage" >
             <template v-slot:before>
                 <q-avatar size="45px">
                     <img
@@ -42,7 +55,8 @@ export default {
         return {
             chat: [],
             message: "",
-            to: null
+            to: null,
+            typing: false
         };
     },
     computed: mapState(["user"]),
@@ -70,12 +84,14 @@ export default {
                     socket.emit("send", {
                         to: "MYCHAT",
                         from: this.user.name,
-                        message: this.message
+                        message: this.message,
+                        moment: getFormattedDate(new Date())
                     });
                     this.chat.push({
                         id: Math.random(999999),
                         text: this.message,
-                        from: this.user.name
+                        from: this.user.name,
+                        moment: getFormattedDate(new Date())
                     });
                     this.message = "";
                 });
@@ -93,10 +109,14 @@ export default {
             socket.emit("joined", "MYCHAT");
             socket.on("message", data => {
                 this.chat.push({
-                    id: Math.random(200),
+                    id: Math.random(99999),
                     text: data["message"],
-                    from: data["from"]
+                    from: data["from"],
+                    moment: data['moment']
                 });
+            });
+            socket.on("typing", data => {
+                this.typing = data;
             });
         },
         color: function() {
@@ -114,14 +134,26 @@ export default {
             await this.verifyRoute();
             this.getChat();
             this.configureSocket();
+        },
+        message: function() {
+            if (this.message.length === 1) {
+                socket.emit("typing", {
+                    to: "MYCHAT",
+                    value: true
+                });
+            } else if (this.message.length === 0) {
+                socket.emit("typing", {
+                    to: "MYCHAT",
+                    value: false
+                });
+            }
         }
     },
     filters: {
         upper: function(value) {
             return value.toUpperCase();
         }
-    },
-
+    }
 };
 </script>
 
