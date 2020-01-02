@@ -60,9 +60,7 @@ export default {
             axios.post(`${baseApiUrl}/signin`, this.user).then(
                 response => {
                     let user = response.data.data.user;
-                    alert(JSON.stringify(user));
                     user['token'] = response.data.data.token;
-                    alert(JSON.stringify(user));
                     this.$store.commit('setUser', user);
                     localStorage.setItem('user', JSON.stringify({ ...response.data.data.user, token: response.data.data.token }));
                     this.user = {};

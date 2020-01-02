@@ -37,11 +37,7 @@
         public static function insert($object) {
             static::$dao::insert($object);
         }
-
-        public static function stats() {
-            return DAO::stats();
-        }
-
+        
         public static function update($id, $object) {
             static::$dao::update($id, $object);
         }

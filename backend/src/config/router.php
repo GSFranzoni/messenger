@@ -147,10 +147,10 @@ $app->post('/users', function (Request $request, Response $response, $args) {
     return $response->withStatus($status, $message);
 });
 
-$app->post('/chat', function (Request $request, Response $response, $args) {
+$app->post('/chats/messages', function (Request $request, Response $response, $args) {
     try {
         $body = json_decode($request->getBody(), true);
-        $data = MessageController::getChat($body['user1'], $body['user2']);
+        $data = MessageController::insert($body);
         $message = 'Recuperação de registros efetuada com sucesso!';
         $status = 200;
     }
@@ -163,9 +163,25 @@ $app->post('/chat', function (Request $request, Response $response, $args) {
     return $response->withStatus($status);
 });
 
-$app->get('/messages', function (Request $request, Response $response, $args) {
+$app->get('/chats/{chat}/messages', function (Request $request, Response $response, $args) {
     try {
-        $data = MessageController::getAll();
+        $data = MessageController::getFromChat($args['chat']);
+        $message = 'Recuperação de registros efetuada com sucesso!';
+        $status = 200;
+    }
+    catch(Exception $e) {
+        $data = [];
+        $message = $e->getMessage();
+        $status = 400;
+    }
+    $response->getBody()->write(json_encode(array('data' => $data, 'message' => $message, 'status' => $status)));
+    return $response->withStatus($status);
+});
+
+$app->post('/chats', function (Request $request, Response $response, $args) {
+    try {
+        $body = json_decode($request->getBody(), 2);
+        $data = ChatController::getFromUsers($body['user1'], $body['user2']);
         $message = 'Recuperação de registros efetuada com sucesso!';
         $status = 200;
     }

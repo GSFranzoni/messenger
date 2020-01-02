@@ -19,8 +19,7 @@
             return Array(
                'id' => (int) $this->id,
                'name' => $this->name,
-               'email' => $this->email,
-               'avatar' => (boolean) $this->admin
+               'email' => $this->email
             );
         }
         

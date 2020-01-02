@@ -2,7 +2,7 @@
 
     class UserDAO extends DAO {
 
-        static $columns = array('id', 'name', 'email', 'password', 'avatar');
+        static $columns = array('id', 'name', 'email', 'password');
         static $tableName = 'User';
 
         public static function signin($email, $password) {
@@ -38,7 +38,7 @@
         }
 
         public static function getByEmail($email) {
-            $result = Database::getResultsFromQuery("SELECT name, email, avatar, id FROM User WHERE email=". static::getFormatedValue($email));
+            $result = Database::getResultsFromQuery("SELECT name, email, id FROM User WHERE email=". static::getFormatedValue($email));
             if($result->num_rows>0)
                 return $result->fetch_assoc();
             return [];
