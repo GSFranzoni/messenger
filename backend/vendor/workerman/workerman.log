@@ -1272,3 +1272,71 @@ Stack trace:
 2020-01-03 02:45:54 pid:24829 Workerman[sockets.php] stopping ...
 2020-01-03 02:45:54 pid:24829 Workerman[sockets.php] has been stopped
 2020-01-03 02:45:55 pid:25337 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 13:21:29 pid:5724 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 13:23:23 pid:5724 Workerman[sockets.php] stopping ...
+2020-01-03 13:23:23 pid:5724 Workerman[sockets.php] has been stopped
+2020-01-03 13:23:24 pid:5836 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 14:53:02 pid:5836 Workerman[sockets.php] stopping ...
+2020-01-03 14:53:02 pid:5836 Workerman[sockets.php] has been stopped
+2020-01-03 14:53:05 pid:8755 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 14:53:58 pid:8755 Workerman[sockets.php] stopping ...
+2020-01-03 14:53:58 pid:8755 Workerman[sockets.php] has been stopped
+2020-01-03 14:53:59 pid:8818 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 14:54:02 pid:8819 Worker[8819] process terminated with ERROR: E_ERROR "Uncaught Error: Call to a member function emit() on null in /home/desenvolvedor/Documentos/messenger/backend/src/config/sockets.php:19
+Stack trace:
+#0 [internal function]: {closure}('1')
+#1 /home/desenvolvedor/Documentos/messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('enter', '1')
+#3 /home/desenvolvedor/Documentos/messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /home/desenvolvedor/Documentos/messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /home/desenvolvedor/Documentos/messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /home/desenvolvedor/Documentos/messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array,  in /home/desenvolvedor/Documentos/messenger/backend/src/config/sockets.php on line 19"
+2020-01-03 14:54:02 pid:8818 worker[PHPSocketIO:8819] exit with status 65280
+2020-01-03 14:54:20 pid:8824 Worker[8824] process terminated with ERROR: E_ERROR "Uncaught Error: Call to a member function emit() on null in /home/desenvolvedor/Documentos/messenger/backend/src/config/sockets.php:19
+Stack trace:
+#0 [internal function]: {closure}('1')
+#1 /home/desenvolvedor/Documentos/messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('enter', '1')
+#3 /home/desenvolvedor/Documentos/messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /home/desenvolvedor/Documentos/messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /home/desenvolvedor/Documentos/messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /home/desenvolvedor/Documentos/messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array,  in /home/desenvolvedor/Documentos/messenger/backend/src/config/sockets.php on line 19"
+2020-01-03 14:54:20 pid:8818 worker[PHPSocketIO:8824] exit with status 65280
+2020-01-03 14:54:23 pid:8818 Workerman[sockets.php] stopping ...
+2020-01-03 14:54:23 pid:8818 Workerman[sockets.php] has been stopped
+2020-01-03 14:54:23 pid:8870 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 14:55:17 pid:8870 Workerman[sockets.php] stopping ...
+2020-01-03 14:55:17 pid:8870 Workerman[sockets.php] has been stopped
+2020-01-03 14:55:18 pid:8935 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 14:55:37 pid:8935 Workerman[sockets.php] stopping ...
+2020-01-03 14:55:37 pid:8935 Workerman[sockets.php] has been stopped
+2020-01-03 14:55:37 pid:8970 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 14:56:27 pid:8970 Workerman[sockets.php] stopping ...
+2020-01-03 14:56:27 pid:8970 Workerman[sockets.php] has been stopped
+2020-01-03 14:56:27 pid:9033 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 14:58:14 pid:9033 Workerman[sockets.php] stopping ...
+2020-01-03 14:58:14 pid:9033 Workerman[sockets.php] has been stopped
+2020-01-03 14:58:15 pid:9130 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 15:09:58 pid:9130 Workerman[sockets.php] stopping ...
+2020-01-03 15:09:58 pid:9130 Workerman[sockets.php] has been stopped
+2020-01-03 15:09:59 pid:9940 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 15:11:07 pid:9940 Workerman[sockets.php] stopping ...
+2020-01-03 15:11:07 pid:9940 Workerman[sockets.php] has been stopped
+2020-01-03 15:11:07 pid:10022 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 15:11:40 pid:10022 Workerman[sockets.php] stopping ...
+2020-01-03 15:11:40 pid:10022 Workerman[sockets.php] has been stopped
+2020-01-03 15:11:41 pid:10076 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 15:16:05 pid:10076 Workerman[sockets.php] stopping ...
+2020-01-03 15:16:05 pid:10076 Workerman[sockets.php] has been stopped
+2020-01-03 15:16:06 pid:10366 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 15:16:45 pid:10366 Workerman[sockets.php] stopping ...
+2020-01-03 15:16:45 pid:10366 Workerman[sockets.php] has been stopped
+2020-01-03 15:16:45 pid:10416 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 15:17:31 pid:10416 Workerman[sockets.php] stopping ...
+2020-01-03 15:17:31 pid:10416 Workerman[sockets.php] has been stopped
+2020-01-03 15:17:31 pid:10459 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 15:48:31 pid:10459 Workerman[sockets.php] stopping ...
+2020-01-03 15:48:31 pid:10459 Workerman[sockets.php] has been stopped
+2020-01-03 15:48:37 pid:10849 Workerman[src/config/sockets.php] start in DEBUG mode

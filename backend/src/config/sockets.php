@@ -12,11 +12,12 @@ $io->on('connection', function($socket) use ($io) {
 
     $socket->on('enter', function($userId) use ($socket, $io) {
         $session = array(
-            'user' => (int) $userId,
-            'socket' => (int) $socket->id
+            'user' => $userId,
+            'socket' => $socket->id
         );
         array_push($GLOBALS['sessions'], $session);
-        $io->emit('onlineUsers', $GLOBALS['sessions']);
+        $socket->emit('onlineUsers', $GLOBALS['sessions']);
+        $socket->broadcast->emit('onlineUsers', $GLOBALS['sessions']);
     });
 
     $socket->on('joined', function($chatId) use ($socket) {
@@ -37,6 +38,7 @@ $io->on('connection', function($socket) use ($io) {
         $GLOBALS['sessions'] = array_values(array_filter($GLOBALS['sessions'], function($session) use($socket) {
             return $session['socket']!=$socket->id;
         }));
+        $socket->broadcast->emit('onlineUsers', $GLOBALS['sessions']);
     });
 });
 

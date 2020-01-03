@@ -73,6 +73,7 @@
 </template>
 
 <script>
+
 import { mapState, mapGetters } from "vuex";
 import axios from "axios";
 import { baseApiUrl, getRandomColor } from "../global";
@@ -80,14 +81,10 @@ import { async } from 'q';
 
 export default {
     computed: {
-        ...mapGetters(['user']),
-        users: {
-            get() {
-                return this.$store.getters.users
-            },
-            set(users) {
-                this.$store.commit('setUsers', users)
-            }
+        ...mapState(['user']),
+        ...mapState(['users']),
+        numberOfOnlineUsers: function() {
+            return this.onlineUsers.length;
         }
     },
     name: "MyLayout",
@@ -110,25 +107,27 @@ export default {
                     to: u.id
                 }
             });
+        },
+        filterUsers: function() {
+            this.filtered = this.users.filter(
+                user => {
+                    return user.name.toLowerCase().indexOf(this.query.toLowerCase()) !== -1
+                }
+            )
+        },
+        loadSocketEvents: function() {
+            this.$store.getters.socket.on("onlineUsers", values => {
+                for (let i = 0; i < this.users.length; i++) {
+                    this.users[i]["online"] = values.map(value => parseInt(value.user)).indexOf(parseInt(this.users[i].id)) > -1;
+                }
+                this.filterUsers();
+            });
+            this.$store.getters.socket.emit("enter", this.$store.state.user.id);
         }
     },
-    computed: {
-        numberOfOnlineUser: function() {
-            return this.onlineUsers.length;
-        }
-    },
-    mounted: async function() {
-        await axios.get(`${baseApiUrl}/users`).then(response => {
-            this.users = response.data.data;
-            this.filtered = [...this.users]
-        });
-        this.$store.getters.socket.on('onlineUsers', (values) => {
-            this.onlineUsers = values
-            console.log(values)
-            for(let i=0; i<this.filtered.length; i++) {
-                this.filtered[i]['online'] = values.map(value => value.user).indexOf(parseInt(this.filtered[i].id))>-1;
-            }
-        });
+    mounted: function() {
+        this.loadSocketEvents();
+        this.filtered = this.users;
     },
     filters: {
         upper: function(value) {
@@ -137,11 +136,7 @@ export default {
     },
     watch: {
         query: function() {
-            this.filtered = this.users.filter(
-                user => {
-                    return user.name.toLowerCase().indexOf(this.query.toLowerCase()) !== -1
-                }
-            )
+            this.filterUsers();
         }
     }
 };
