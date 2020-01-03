@@ -72,7 +72,6 @@ export default {
                     })
                     await this.loadUsers();
                     this.$store.getters.socket.emit("enter", this.$store.state.user.id);
-                    alert();
                 }
             ).catch(e => {
                 alert(e.message)
