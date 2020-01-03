@@ -13,7 +13,7 @@
 
                 <q-toolbar-title>Guibook Messenger</q-toolbar-title>
 
-                <div>Quasar v{{ $q.version }}</div>
+                <Profile />
             </q-toolbar>
         </q-header>
 
@@ -78,8 +78,12 @@ import { mapState, mapGetters } from "vuex";
 import axios from "axios";
 import { baseApiUrl, getRandomColor } from "../global";
 import { async } from 'q';
+import Profile from '../components/Profile';
 
 export default {
+    components: {
+        Profile
+    },
     computed: {
         ...mapState(['user']),
         ...mapState(['users']),
@@ -117,6 +121,7 @@ export default {
         },
         loadSocketEvents: function() {
             this.$store.getters.socket.on("onlineUsers", values => {
+                console.log(values)
                 for (let i = 0; i < this.users.length; i++) {
                     this.users[i]["online"] = values.map(value => parseInt(value.user)).indexOf(parseInt(this.users[i].id)) > -1;
                 }

@@ -15,7 +15,18 @@ $io->on('connection', function($socket) use ($io) {
             'user' => $userId,
             'socket' => $socket->id
         );
+        $GLOBALS['sessions'] = array_values(array_filter($GLOBALS['sessions'], function($session) use($socket, $userId) {
+            return $session['user']!=$userId;
+        }));
         array_push($GLOBALS['sessions'], $session);
+        $socket->emit('onlineUsers', $GLOBALS['sessions']);
+        $socket->broadcast->emit('onlineUsers', $GLOBALS['sessions']);
+    });
+
+    $socket->on('disconnectUser', function($userId) use ($socket) {
+        $GLOBALS['sessions'] = array_values(array_filter($GLOBALS['sessions'], function($session) use($socket, $userId) {
+            return $session['user']!=$userId;
+        }));
         $socket->emit('onlineUsers', $GLOBALS['sessions']);
         $socket->broadcast->emit('onlineUsers', $GLOBALS['sessions']);
     });

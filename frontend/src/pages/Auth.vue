@@ -1,8 +1,8 @@
 <template>
     <q-page class="row justify-center items-center">
         <q-card class="form">
-            <q-card-section class='row justify-start'>
-                <div class='text-h5'>{{ login? 'Login': 'Cadastro' }}</div>
+            <q-card-section class='row justify-end'>
+                <div class='text-h4 q-ma-md text-primary'>{{ login? 'Login': 'Cadastro' }}</div>
             </q-card-section>
             <q-card-section>
                 <q-input name='email' class='self-center' color="primary" outlined v-model="user.email" label="E-mail" type="email">
@@ -47,18 +47,21 @@
 <script>
 import { baseApiUrl } from '../global';
 import axios from 'axios';
+import { Loading, QSpinnerGears } from "quasar";
 
 export default {
     data: function() {
         return {
             user: {},
-            login: true
+            login: true,
+            loading: true
         };
     },
     methods: {
         signin: function() {
+            this.showLoading();
             axios.post(`${baseApiUrl}/signin`, this.user).then(
-                response => {
+                async response => {
                     let user = response.data.data.user;
                     user['token'] = response.data.data.token;
                     this.$store.commit('setUser', user);
@@ -67,13 +70,33 @@ export default {
                     this.$router.push({
                         path: '/'
                     })
+                    await this.loadUsers();
+                    this.$store.getters.socket.emit("enter", this.$store.state.user.id);
+                    alert();
                 }
             ).catch(e => {
                 alert(e.message)
+            }).finally(() => {
+                this.hideLoading();
             })
         },
         signup: function() {
 
+        },
+        loadUsers: async function() {
+            await axios.get(`${baseApiUrl}/users`).then(response => {
+                this.$store.commit("setUsers", response.data.data);
+            });
+        },
+        hideLoading: function() {
+            Loading.hide();
+            this.loading = false;
+        },
+        showLoading: function() {
+            Loading.show({
+                spinner: QSpinnerGears,
+                message: "Please, wait! Loading resources..."
+            });
         }
     }
 };
