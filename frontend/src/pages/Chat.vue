@@ -43,12 +43,9 @@
 
 <script>
 import Gravatar from "vue-gravatar";
-import { mapState } from "vuex";
+import { mapState, mapGetters } from "vuex";
 import axios from "axios";
 import { baseApiUrl, getRandomColor, getFormattedDate } from "../global.js";
-
-const io = require("socket.io-client");
-const socket = io("http://localhost:3000");
 
 export default {
     data: function() {
@@ -60,7 +57,10 @@ export default {
             chat: null
         };
     },
-    computed: mapState(["user"]),
+    computed: {
+        ...mapGetters(["socket"]),
+        ...mapState(["user"]),
+    },
     methods: {
         getChat: async function() {
             await axios
@@ -98,7 +98,7 @@ export default {
                         message: this.message,
                         moment: getFormattedDate(new Date())
                     };
-                    socket.emit("send", msg);
+                    this.socket.emit("send", msg);
                     this.setMessage(msg);
                     this.message = "";
                 });
@@ -113,12 +113,11 @@ export default {
             }
         },
         configureSocket: function() {
-            console.log('joining')
-            socket.emit("joined", this.chat.id.toString());
-            socket.on("message", data => {
+            this.socket.emit("joined", this.chat.id.toString());
+            this.socket.on("message", data => {
                 this.setMessage(data);
             });
-            socket.on("typing", data => {
+            this.socket.on("typing", data => {
                 this.typing = data;
             });
         },
@@ -145,7 +144,7 @@ export default {
         $route: async function(to) {
             this.to.id = this.$route.params.to;
             console.log('leaving')
-            socket.emit('leaved', this.chat.id.toString());
+            this.socket.emit('leaved', this.chat.id.toString());
             await this.verifyRoute();
             await this.getChat();
             this.message = '';
@@ -154,13 +153,13 @@ export default {
         },
         message: function() {
             if (this.message.length === 1) {
-                socket.emit("typing", {
+                this.socket.emit("typing", {
                     to: this.chat.id.toString(),
                     value: true
                 });
             } 
             else if (this.message.length === 0) {
-                socket.emit("typing", {
+                this.socket.emit("typing", {
                     to: this.chat.id.toString(),
                     value: false
                 });

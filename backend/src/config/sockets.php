@@ -5,11 +5,20 @@ require_once dirname(__DIR__, 2). '/vendor/autoload.php';
 use Workerman\Worker;
 use PHPSocketIO\SocketIO;
 
-$GLOBALS['users'] = [];
+$GLOBALS['sessions'] = [];
 
 $io = new SocketIO(3000);
-$io->on('connection', function($socket) use ($io) {
-    $GLOBALS['users'][$socket->id]['online'] = true;
+$io->on('connection', function($socket) use ($io) { 
+
+    $socket->on('enter', function($userId) use ($socket, $io) {
+        $session = array(
+            'user' => (int) $userId,
+            'socket' => (int) $socket->id
+        );
+        array_push($GLOBALS['sessions'], $session);
+        $io->emit('onlineUsers', $GLOBALS['sessions']);
+    });
+
     $socket->on('joined', function($chatId) use ($socket) {
         $socket->join($chatId);
     });
@@ -25,7 +34,9 @@ $io->on('connection', function($socket) use ($io) {
     });
 
     $socket->on('disconnect', function($data) use ($socket) {
-        $GLOBALS['users'][$socket->id]['online'] = false;
+        $GLOBALS['sessions'] = array_values(array_filter($GLOBALS['sessions'], function($session) use($socket) {
+            return $session['socket']!=$socket->id;
+        }));
     });
 });
 

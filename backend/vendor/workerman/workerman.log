@@ -815,3 +815,460 @@ Stack trace:
 2020-01-02 19:20:20 pid:9879 Workerman[src/config/sockets.php] start in DEBUG mode
 2020-01-02 19:22:04 pid:9879 Workerman[sockets.php] stopping ...
 2020-01-02 19:22:04 pid:9879 Workerman[sockets.php] has been stopped
+2020-01-02 20:36:44 pid:6348 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 20:46:10 pid:7678 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 20:46:10 pid:7678 Workerman[src/config/sockets.php] already running
+2020-01-02 20:46:18 pid:7689 Workerman[src/config/sockets.php] stop 
+2020-01-02 20:46:18 pid:7689 Workerman[src/config/sockets.php] is stopping ...
+2020-01-02 20:46:18 pid:6348 Workerman[sockets.php] stopping ...
+2020-01-02 20:46:18 pid:6348 Workerman[sockets.php] has been stopped
+2020-01-02 20:46:18 pid:7689 Workerman[src/config/sockets.php] stop success
+2020-01-02 20:46:47 pid:7716 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 20:54:02 pid:7716 Workerman[sockets.php] stopping ...
+2020-01-02 20:54:02 pid:7716 Workerman[sockets.php] has been stopped
+2020-01-02 20:54:04 pid:8053 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 20:59:13 pid:8053 Workerman[sockets.php] stopping ...
+2020-01-02 20:59:13 pid:8053 Workerman[sockets.php] has been stopped
+2020-01-02 20:59:14 pid:8507 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 21:03:01 pid:8507 Workerman[sockets.php] stopping ...
+2020-01-02 21:03:01 pid:8507 Workerman[sockets.php] has been stopped
+2020-01-02 21:03:02 pid:8787 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 21:06:25 pid:8787 Workerman[sockets.php] stopping ...
+2020-01-02 21:06:25 pid:8787 Workerman[sockets.php] has been stopped
+2020-01-02 21:06:26 pid:8987 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 21:07:12 pid:8987 Workerman[sockets.php] stopping ...
+2020-01-02 21:07:12 pid:8987 Workerman[sockets.php] has been stopped
+2020-01-02 21:07:13 pid:9025 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:17:42 pid:9025 Workerman[sockets.php] stopping ...
+2020-01-02 22:17:42 pid:9025 Workerman[sockets.php] has been stopped
+2020-01-02 22:17:47 pid:13596 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:19:39 pid:13596 Workerman[sockets.php] stopping ...
+2020-01-02 22:19:39 pid:13596 Workerman[sockets.php] has been stopped
+2020-01-02 22:19:40 pid:13688 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:21:17 pid:13688 Workerman[sockets.php] stopping ...
+2020-01-02 22:21:17 pid:13688 Workerman[sockets.php] has been stopped
+2020-01-02 22:24:49 pid:13958 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:25:09 pid:13958 Workerman[sockets.php] stopping ...
+2020-01-02 22:25:09 pid:13958 Workerman[sockets.php] has been stopped
+2020-01-02 22:25:09 pid:13986 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:25:36 pid:13986 Workerman[sockets.php] stopping ...
+2020-01-02 22:25:36 pid:13986 Workerman[sockets.php] has been stopped
+2020-01-02 22:25:36 pid:14018 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:25:58 pid:14018 Workerman[sockets.php] stopping ...
+2020-01-02 22:25:58 pid:14018 Workerman[sockets.php] has been stopped
+2020-01-02 22:25:59 pid:14053 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:28:05 pid:14053 Workerman[sockets.php] stopping ...
+2020-01-02 22:28:05 pid:14053 Workerman[sockets.php] has been stopped
+2020-01-02 22:28:07 pid:14141 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:28:40 pid:14141 Workerman[sockets.php] stopping ...
+2020-01-02 22:28:41 pid:14141 Workerman[sockets.php] has been stopped
+2020-01-02 22:28:41 pid:14190 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:29:02 pid:14190 Workerman[sockets.php] stopping ...
+2020-01-02 22:29:02 pid:14190 Workerman[sockets.php] has been stopped
+2020-01-02 22:29:02 pid:14224 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:29:11 pid:14224 Workerman[sockets.php] stopping ...
+2020-01-02 22:29:11 pid:14224 Workerman[sockets.php] has been stopped
+2020-01-02 22:29:15 pid:14299 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:29:57 pid:14299 Workerman[sockets.php] stopping ...
+2020-01-02 22:29:57 pid:14299 Workerman[sockets.php] has been stopped
+2020-01-02 22:29:58 pid:14349 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:33:36 pid:14349 Workerman[sockets.php] stopping ...
+2020-01-02 22:33:36 pid:14349 Workerman[sockets.php] has been stopped
+2020-01-02 22:33:36 pid:14495 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:34:59 pid:14495 Workerman[sockets.php] stopping ...
+2020-01-02 22:34:59 pid:14495 Workerman[sockets.php] has been stopped
+2020-01-02 22:34:59 pid:14595 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:36:10 pid:14595 Workerman[sockets.php] stopping ...
+2020-01-02 22:36:10 pid:14595 Workerman[sockets.php] has been stopped
+2020-01-02 22:36:11 pid:14670 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:37:28 pid:14670 Workerman[sockets.php] stopping ...
+2020-01-02 22:37:28 pid:14670 Workerman[sockets.php] has been stopped
+2020-01-02 22:37:29 pid:14763 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:41:12 pid:14763 Workerman[sockets.php] stopping ...
+2020-01-02 22:41:12 pid:14763 Workerman[sockets.php] has been stopped
+2020-01-02 22:41:17 pid:14959 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:41:40 pid:14959 Workerman[sockets.php] stopping ...
+2020-01-02 22:41:40 pid:14959 Workerman[sockets.php] has been stopped
+2020-01-02 22:41:41 pid:14983 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:46:56 pid:14983 Workerman[sockets.php] stopping ...
+2020-01-02 22:46:56 pid:14983 Workerman[sockets.php] has been stopped
+2020-01-02 22:46:56 pid:15328 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:47:26 pid:15328 Workerman[sockets.php] stopping ...
+2020-01-02 22:47:26 pid:15328 Workerman[sockets.php] has been stopped
+2020-01-02 22:47:28 pid:15377 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:49:46 pid:15377 Workerman[sockets.php] stopping ...
+2020-01-02 22:49:46 pid:15377 Workerman[sockets.php] has been stopped
+2020-01-02 22:49:47 pid:15447 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:51:35 pid:15447 Workerman[sockets.php] stopping ...
+2020-01-02 22:51:35 pid:15447 Workerman[sockets.php] has been stopped
+2020-01-02 22:51:36 pid:15515 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:52:04 pid:15515 Workerman[sockets.php] stopping ...
+2020-01-02 22:52:04 pid:15515 Workerman[sockets.php] has been stopped
+2020-01-02 22:52:05 pid:15546 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:52:13 pid:15547 ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/src/config/sockets.php:13
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 /home/gui/Documentos/Messenger/backend/src/config/sockets.php(15): array_filter(Array, Object(Closure))
+#2 [internal function]: {closure}(Array)
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: PHPSocketIO\Event\Emitter->emit('getUser', Array)
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#7 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#8 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#9 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#10 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#11 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["getUser",{"n...')
+#12 [internal function]: PHPSocketIO\Client->ondata('2["getUser",{"n...')
+#13 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#14 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["getUser",{"n...')
+#15 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#16 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#17 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#18 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#19 [internal function]: PHPSocketIO\Engine\Transport->onData('42["getUser",{"...')
+#20 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["getUser",{"...')
+#21 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Connection/TcpConnection.php(656): PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["getUser",{"...')
+#22 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Events/Select.php(292): Workerman\Connection\TcpConnection->baseRead(Resource id #55)
+#23 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(2399): Workerman\Events\Select->loop()
+#24 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1534): Workerman\Worker->run()
+#25 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1364): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#26 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1338): Workerman\Worker::forkWorkersForLinux()
+#27 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(539): Workerman\Worker::forkWorkers()
+#28 /home/gui/Documentos/Messenger/backend/src/config/sockets.php(47): Workerman\Worker::runAll()
+#29 {main}
+2020-01-02 22:52:13 pid:15547 Worker[15547] process terminated
+2020-01-02 22:52:13 pid:15546 worker[PHPSocketIO:15547] exit with status 64000
+2020-01-02 22:52:19 pid:15571 ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /home/gui/Documentos/Messenger/backend/src/config/sockets.php:13
+Stack trace:
+#0 [internal function]: {closure}(Array)
+#1 /home/gui/Documentos/Messenger/backend/src/config/sockets.php(15): array_filter(Array, Object(Closure))
+#2 [internal function]: {closure}(Array)
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#4 [internal function]: PHPSocketIO\Event\Emitter->emit('getUser', Array)
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#7 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#8 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#9 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#10 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#11 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["getUser",{"n...')
+#12 [internal function]: PHPSocketIO\Client->ondata('2["getUser",{"n...')
+#13 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#14 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["getUser",{"n...')
+#15 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#16 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#17 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#18 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#19 [internal function]: PHPSocketIO\Engine\Transport->onData('42["getUser",{"...')
+#20 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["getUser",{"...')
+#21 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Connection/TcpConnection.php(656): PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["getUser",{"...')
+#22 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Events/Select.php(292): Workerman\Connection\TcpConnection->baseRead(Resource id #56)
+#23 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(2399): Workerman\Events\Select->loop()
+#24 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1534): Workerman\Worker->run()
+#25 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1364): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#26 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1338): Workerman\Worker::forkWorkersForLinux()
+#27 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1668): Workerman\Worker::forkWorkers()
+#28 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1617): Workerman\Worker::monitorWorkersForLinux()
+#29 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(541): Workerman\Worker::monitorWorkers()
+#30 /home/gui/Documentos/Messenger/backend/src/config/sockets.php(47): Workerman\Worker::runAll()
+#31 {main}
+2020-01-02 22:52:19 pid:15571 Worker[15571] process terminated
+2020-01-02 22:52:19 pid:15546 worker[PHPSocketIO:15571] exit with status 64000
+2020-01-02 22:53:25 pid:15546 Workerman[sockets.php] stopping ...
+2020-01-02 22:53:25 pid:15546 Workerman[sockets.php] has been stopped
+2020-01-02 22:53:25 pid:15620 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 22:58:11 pid:15620 Workerman[sockets.php] stopping ...
+2020-01-02 22:58:11 pid:15620 Workerman[sockets.php] has been stopped
+2020-01-02 22:58:13 pid:16012 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:02:16 pid:16012 Workerman[sockets.php] stopping ...
+2020-01-02 23:02:16 pid:16012 Workerman[sockets.php] has been stopped
+2020-01-02 23:02:17 pid:16188 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:03:06 pid:16188 Workerman[sockets.php] stopping ...
+2020-01-02 23:03:06 pid:16188 Workerman[sockets.php] has been stopped
+2020-01-02 23:03:07 pid:16264 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:04:40 pid:16264 Workerman[sockets.php] stopping ...
+2020-01-02 23:04:40 pid:16264 Workerman[sockets.php] has been stopped
+2020-01-02 23:04:40 pid:16396 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:05:21 pid:16396 Workerman[sockets.php] stopping ...
+2020-01-02 23:05:21 pid:16396 Workerman[sockets.php] has been stopped
+2020-01-02 23:05:22 pid:16438 Workerman[src/config/sockets.php] stop 
+2020-01-02 23:05:22 pid:16438 Workerman[src/config/sockets.php] not run
+2020-01-02 23:05:23 pid:16441 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:05:59 pid:16441 Workerman[sockets.php] stopping ...
+2020-01-02 23:05:59 pid:16441 Workerman[sockets.php] has been stopped
+2020-01-02 23:06:00 pid:16486 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:07:23 pid:16486 Workerman[sockets.php] stopping ...
+2020-01-02 23:07:23 pid:16486 Workerman[sockets.php] has been stopped
+2020-01-02 23:07:24 pid:16580 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:07:41 pid:16580 Workerman[sockets.php] stopping ...
+2020-01-02 23:07:41 pid:16580 Workerman[sockets.php] has been stopped
+2020-01-02 23:07:42 pid:16618 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:07:56 pid:16618 Workerman[sockets.php] stopping ...
+2020-01-02 23:07:56 pid:16618 Workerman[sockets.php] has been stopped
+2020-01-02 23:07:56 pid:16660 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:08:37 pid:16660 Workerman[sockets.php] stopping ...
+2020-01-02 23:08:37 pid:16660 Workerman[sockets.php] has been stopped
+2020-01-02 23:08:38 pid:16694 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:10:07 pid:16694 Workerman[sockets.php] stopping ...
+2020-01-02 23:10:07 pid:16694 Workerman[sockets.php] has been stopped
+2020-01-02 23:10:08 pid:16807 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:12:31 pid:16807 Workerman[sockets.php] stopping ...
+2020-01-02 23:12:31 pid:16807 Workerman[sockets.php] has been stopped
+2020-01-02 23:12:32 pid:16864 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:13:20 pid:16864 Workerman[sockets.php] stopping ...
+2020-01-02 23:13:20 pid:16864 Workerman[sockets.php] has been stopped
+2020-01-02 23:13:21 pid:16921 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:13:46 pid:16921 Workerman[sockets.php] stopping ...
+2020-01-02 23:13:46 pid:16921 Workerman[sockets.php] has been stopped
+2020-01-02 23:13:47 pid:16964 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:14:43 pid:16964 Workerman[sockets.php] stopping ...
+2020-01-02 23:14:43 pid:16964 Workerman[sockets.php] has been stopped
+2020-01-02 23:14:44 pid:17007 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:18:42 pid:17007 Workerman[sockets.php] stopping ...
+2020-01-02 23:18:42 pid:17007 Workerman[sockets.php] has been stopped
+2020-01-02 23:18:42 pid:17119 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:19:17 pid:17119 Workerman[sockets.php] stopping ...
+2020-01-02 23:19:18 pid:17119 Workerman[sockets.php] has been stopped
+2020-01-02 23:19:19 pid:17160 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:20:47 pid:17160 Workerman[sockets.php] stopping ...
+2020-01-02 23:20:48 pid:17160 Workerman[sockets.php] has been stopped
+2020-01-02 23:20:48 pid:17220 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:21:59 pid:17220 Workerman[sockets.php] stopping ...
+2020-01-02 23:21:59 pid:17220 Workerman[sockets.php] has been stopped
+2020-01-02 23:22:01 pid:17342 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:24:14 pid:17342 Workerman[sockets.php] stopping ...
+2020-01-02 23:24:14 pid:17342 Workerman[sockets.php] has been stopped
+2020-01-02 23:24:15 pid:17444 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:25:22 pid:17444 Workerman[sockets.php] stopping ...
+2020-01-02 23:25:22 pid:17444 Workerman[sockets.php] has been stopped
+2020-01-02 23:25:23 pid:17493 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:27:46 pid:17493 Workerman[sockets.php] stopping ...
+2020-01-02 23:27:46 pid:17493 Workerman[sockets.php] has been stopped
+2020-01-02 23:27:47 pid:17661 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:28:31 pid:17661 Workerman[sockets.php] stopping ...
+2020-01-02 23:28:31 pid:17661 Workerman[sockets.php] has been stopped
+2020-01-02 23:30:40 pid:17808 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:41:45 pid:17808 Workerman[sockets.php] stopping ...
+2020-01-02 23:41:45 pid:17808 Workerman[sockets.php] has been stopped
+2020-01-02 23:41:46 pid:18528 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:44:37 pid:18528 Workerman[sockets.php] stopping ...
+2020-01-02 23:44:37 pid:18528 Workerman[sockets.php] has been stopped
+2020-01-02 23:44:37 pid:18667 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:46:54 pid:18667 Workerman[sockets.php] stopping ...
+2020-01-02 23:46:54 pid:18667 Workerman[sockets.php] has been stopped
+2020-01-02 23:46:55 pid:18838 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-02 23:47:48 pid:18838 Workerman[sockets.php] stopping ...
+2020-01-02 23:47:48 pid:18838 Workerman[sockets.php] has been stopped
+2020-01-02 23:47:49 pid:18900 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 00:01:51 pid:18900 Workerman[sockets.php] stopping ...
+2020-01-03 00:01:51 pid:18900 Workerman[sockets.php] has been stopped
+2020-01-03 00:01:52 pid:19893 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 01:48:07 pid:19893 Workerman[sockets.php] stopping ...
+2020-01-03 01:48:07 pid:19893 Workerman[sockets.php] has been stopped
+2020-01-03 01:48:38 pid:21241 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 01:52:01 pid:21241 Workerman[sockets.php] stopping ...
+2020-01-03 01:52:01 pid:21241 Workerman[sockets.php] has been stopped
+2020-01-03 01:52:02 pid:21354 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 01:52:56 pid:21354 Workerman[sockets.php] stopping ...
+2020-01-03 01:52:56 pid:21354 Workerman[sockets.php] has been stopped
+2020-01-03 01:52:57 pid:22156 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 01:53:08 pid:22156 Workerman[sockets.php] stopping ...
+2020-01-03 01:53:08 pid:22156 Workerman[sockets.php] has been stopped
+2020-01-03 01:53:11 pid:22173 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 01:53:26 pid:22173 Workerman[sockets.php] stopping ...
+2020-01-03 01:53:26 pid:22173 Workerman[sockets.php] has been stopped
+2020-01-03 01:53:27 pid:22249 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 01:54:04 pid:22249 Workerman[sockets.php] stopping ...
+2020-01-03 01:54:04 pid:22249 Workerman[sockets.php] has been stopped
+2020-01-03 01:54:05 pid:22334 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 01:54:06 pid:22335 Worker[22335] process terminated with ERROR: E_ERROR "Uncaught Error: Cannot use object of type PHPSocketIO\Socket as array in /home/gui/Documentos/Messenger/backend/src/config/sockets.php:14
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->con in /home/gui/Documentos/Messenger/backend/src/config/sockets.php on line 14"
+2020-01-03 01:54:06 pid:22334 worker[PHPSocketIO:22335] exit with status 65280
+2020-01-03 01:54:06 pid:22336 Worker[22336] process terminated with ERROR: E_ERROR "Uncaught Error: Cannot use object of type PHPSocketIO\Socket as array in /home/gui/Documentos/Messenger/backend/src/config/sockets.php:14
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->con in /home/gui/Documentos/Messenger/backend/src/config/sockets.php on line 14"
+2020-01-03 01:54:06 pid:22334 worker[PHPSocketIO:22336] exit with status 65280
+2020-01-03 01:54:07 pid:22337 Worker[22337] process terminated with ERROR: E_ERROR "Uncaught Error: Cannot use object of type PHPSocketIO\Socket as array in /home/gui/Documentos/Messenger/backend/src/config/sockets.php:14
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->con in /home/gui/Documentos/Messenger/backend/src/config/sockets.php on line 14"
+2020-01-03 01:54:07 pid:22334 worker[PHPSocketIO:22337] exit with status 65280
+2020-01-03 01:54:07 pid:22338 Worker[22338] process terminated with ERROR: E_ERROR "Uncaught Error: Cannot use object of type PHPSocketIO\Socket as array in /home/gui/Documentos/Messenger/backend/src/config/sockets.php:14
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->con in /home/gui/Documentos/Messenger/backend/src/config/sockets.php on line 14"
+2020-01-03 01:54:07 pid:22334 worker[PHPSocketIO:22338] exit with status 65280
+2020-01-03 01:54:08 pid:22339 Worker[22339] process terminated with ERROR: E_ERROR "Uncaught Error: Cannot use object of type PHPSocketIO\Socket as array in /home/gui/Documentos/Messenger/backend/src/config/sockets.php:14
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->con in /home/gui/Documentos/Messenger/backend/src/config/sockets.php on line 14"
+2020-01-03 01:54:08 pid:22334 worker[PHPSocketIO:22339] exit with status 65280
+2020-01-03 01:54:08 pid:22340 Worker[22340] process terminated with ERROR: E_ERROR "Uncaught Error: Cannot use object of type PHPSocketIO\Socket as array in /home/gui/Documentos/Messenger/backend/src/config/sockets.php:14
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->con in /home/gui/Documentos/Messenger/backend/src/config/sockets.php on line 14"
+2020-01-03 01:54:08 pid:22334 worker[PHPSocketIO:22340] exit with status 65280
+2020-01-03 01:54:09 pid:22341 Worker[22341] process terminated with ERROR: E_ERROR "Uncaught Error: Cannot use object of type PHPSocketIO\Socket as array in /home/gui/Documentos/Messenger/backend/src/config/sockets.php:14
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->con in /home/gui/Documentos/Messenger/backend/src/config/sockets.php on line 14"
+2020-01-03 01:54:09 pid:22334 worker[PHPSocketIO:22341] exit with status 65280
+2020-01-03 01:54:12 pid:22342 Worker[22342] process terminated with ERROR: E_ERROR "Uncaught Error: Cannot use object of type PHPSocketIO\Socket as array in /home/gui/Documentos/Messenger/backend/src/config/sockets.php:14
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->con in /home/gui/Documentos/Messenger/backend/src/config/sockets.php on line 14"
+2020-01-03 01:54:12 pid:22334 worker[PHPSocketIO:22342] exit with status 65280
+2020-01-03 01:54:15 pid:22345 Worker[22345] process terminated with ERROR: E_ERROR "Uncaught Error: Cannot use object of type PHPSocketIO\Socket as array in /home/gui/Documentos/Messenger/backend/src/config/sockets.php:14
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->con in /home/gui/Documentos/Messenger/backend/src/config/sockets.php on line 14"
+2020-01-03 01:54:15 pid:22334 worker[PHPSocketIO:22345] exit with status 65280
+2020-01-03 01:54:17 pid:22346 Worker[22346] process terminated with ERROR: E_ERROR "Uncaught Error: Cannot use object of type PHPSocketIO\Socket as array in /home/gui/Documentos/Messenger/backend/src/config/sockets.php:14
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->con in /home/gui/Documentos/Messenger/backend/src/config/sockets.php on line 14"
+2020-01-03 01:54:17 pid:22334 worker[PHPSocketIO:22346] exit with status 65280
+2020-01-03 01:54:19 pid:22347 Worker[22347] process terminated with ERROR: E_ERROR "Uncaught Error: Cannot use object of type PHPSocketIO\Socket as array in /home/gui/Documentos/Messenger/backend/src/config/sockets.php:14
+Stack trace:
+#0 [internal function]: {closure}(Object(PHPSocketIO\Socket))
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('connection', Object(PHPSocketIO\Socket))
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(102): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Nsp.php(68): PHPSocketIO\Nsp->emit('connection', Object(PHPSocketIO\Socket))
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(64): PHPSocketIO\Nsp->add(Object(PHPSocketIO\Client), Object(PHPSocketIO\Nsp), Array)
+#6 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/SocketIO.php(130): PHPSocketIO\Client->con in /home/gui/Documentos/Messenger/backend/src/config/sockets.php on line 14"
+2020-01-03 01:54:19 pid:22334 worker[PHPSocketIO:22347] exit with status 65280
+2020-01-03 01:54:19 pid:22334 Workerman[sockets.php] stopping ...
+2020-01-03 01:54:19 pid:22334 Workerman[sockets.php] has been stopped
+2020-01-03 01:54:20 pid:22352 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 01:57:51 pid:22352 Workerman[sockets.php] stopping ...
+2020-01-03 01:57:51 pid:22352 Workerman[sockets.php] has been stopped
+2020-01-03 01:58:13 pid:22476 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 02:00:14 pid:22476 Workerman[sockets.php] stopping ...
+2020-01-03 02:00:14 pid:22476 Workerman[sockets.php] has been stopped
+2020-01-03 02:00:14 pid:22539 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 02:00:41 pid:22539 Workerman[sockets.php] stopping ...
+2020-01-03 02:00:41 pid:22539 Workerman[sockets.php] has been stopped
+2020-01-03 02:00:42 pid:22596 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 02:00:56 pid:22596 Workerman[sockets.php] stopping ...
+2020-01-03 02:00:56 pid:22596 Workerman[sockets.php] has been stopped
+2020-01-03 02:00:56 pid:22644 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 02:02:21 pid:22645 Error: Cannot use object of type PHPSocketIO\Socket as array in /home/gui/Documentos/Messenger/backend/src/config/sockets.php:16
+Stack trace:
+#0 [internal function]: {closure}('1')
+#1 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Object(Closure), Array)
+#2 [internal function]: PHPSocketIO\Event\Emitter->emit('enter', '1')
+#3 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(307): call_user_func_array(Array, Array)
+#4 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Socket.php(269): PHPSocketIO\Socket->onevent(Array)
+#5 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(202): PHPSocketIO\Socket->onpacket(Array)
+#6 [internal function]: PHPSocketIO\Client->ondecoded(Array)
+#7 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#8 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Parser/Decoder.php(34): PHPSocketIO\Event\Emitter->emit('decoded', Array)
+#9 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Client.php(182): PHPSocketIO\Parser\Decoder->add('2["enter","1"]')
+#10 [internal function]: PHPSocketIO\Client->ondata('2["enter","1"]')
+#11 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#12 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Socket.php(187): PHPSocketIO\Event\Emitter->emit('data', '2["enter","1"]')
+#13 [internal function]: PHPSocketIO\Engine\Socket->onPacket(Array)
+#14 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Event/Emitter.php(93): call_user_func_array(Array, Array)
+#15 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transport.php(56): PHPSocketIO\Event\Emitter->emit('packet', Array)
+#16 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transport.php(61): PHPSocketIO\Engine\Transport->onPacket(Array)
+#17 [internal function]: PHPSocketIO\Engine\Transport->onData('42["enter","1"]')
+#18 /home/gui/Documentos/Messenger/backend/vendor/workerman/phpsocket.io/src/Engine/Transports/WebSocket.php(26): call_user_func(Array, '42["enter","1"]')
+#19 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Connection/TcpConnection.php(656): PHPSocketIO\Engine\Transports\WebSocket->onData2(Object(Workerman\Connection\TcpConnection), '42["enter","1"]')
+#20 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Events/Select.php(292): Workerman\Connection\TcpConnection->baseRead(Resource id #53)
+#21 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(2399): Workerman\Events\Select->loop()
+#22 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1534): Workerman\Worker->run()
+#23 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1364): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#24 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(1338): Workerman\Worker::forkWorkersForLinux()
+#25 /home/gui/Documentos/Messenger/backend/vendor/workerman/workerman/Worker.php(539): Workerman\Worker::forkWorkers()
+#26 /home/gui/Documentos/Messenger/backend/src/config/sockets.php(43): Workerman\Worker::runAll()
+#27 {main}
+2020-01-03 02:02:21 pid:22645 Worker[22645] process terminated
+2020-01-03 02:02:21 pid:22644 worker[PHPSocketIO:22645] exit with status 64000
+2020-01-03 02:02:44 pid:22644 Workerman[sockets.php] stopping ...
+2020-01-03 02:02:44 pid:22644 Workerman[sockets.php] has been stopped
+2020-01-03 02:02:44 pid:22719 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 02:03:03 pid:22719 Workerman[sockets.php] stopping ...
+2020-01-03 02:03:03 pid:22719 Workerman[sockets.php] has been stopped
+2020-01-03 02:03:04 pid:22752 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 02:09:50 pid:22752 Workerman[sockets.php] stopping ...
+2020-01-03 02:09:50 pid:22752 Workerman[sockets.php] has been stopped
+2020-01-03 02:09:51 pid:23274 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 02:10:07 pid:23274 Workerman[sockets.php] stopping ...
+2020-01-03 02:10:07 pid:23274 Workerman[sockets.php] has been stopped
+2020-01-03 02:10:08 pid:23303 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 02:10:42 pid:23303 Workerman[sockets.php] stopping ...
+2020-01-03 02:10:42 pid:23303 Workerman[sockets.php] has been stopped
+2020-01-03 02:10:43 pid:23331 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 02:10:52 pid:23331 Workerman[sockets.php] stopping ...
+2020-01-03 02:10:52 pid:23331 Workerman[sockets.php] has been stopped
+2020-01-03 02:10:53 pid:23347 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 02:11:14 pid:23347 Workerman[sockets.php] stopping ...
+2020-01-03 02:11:14 pid:23347 Workerman[sockets.php] has been stopped
+2020-01-03 02:11:15 pid:23359 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 02:34:59 pid:23359 Workerman[sockets.php] stopping ...
+2020-01-03 02:34:59 pid:23359 Workerman[sockets.php] has been stopped
+2020-01-03 02:35:02 pid:24766 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 02:36:00 pid:24766 Workerman[sockets.php] stopping ...
+2020-01-03 02:36:00 pid:24766 Workerman[sockets.php] has been stopped
+2020-01-03 02:36:01 pid:24819 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 02:36:28 pid:24819 Workerman[sockets.php] stopping ...
+2020-01-03 02:36:28 pid:24819 Workerman[sockets.php] has been stopped
+2020-01-03 02:36:28 pid:24829 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-03 02:45:54 pid:24829 Workerman[sockets.php] stopping ...
+2020-01-03 02:45:54 pid:24829 Workerman[sockets.php] has been stopped
+2020-01-03 02:45:55 pid:25337 Workerman[src/config/sockets.php] start in DEBUG mode
