@@ -39,30 +39,30 @@
                 <q-item-label header><strong>Usuários</strong></q-item-label>
                 <transition-group name='list-complete'>
                     <q-item
-                    @click="goToChat(u)"
-                    v-for="u in filtered"
-                    :key="u.id"
-                    clickable
-                    tag="a"
-                    target="_blank"
-                    class="user"
-                >
-                    <q-item-section avatar>
-                        <q-avatar size="45px">
-                            <img
-                                :src="`https://api.adorable.io/avatars/45/${u.id}.png`"
-                                alt="user-avatar"
-                            />
-                        </q-avatar>
-                    </q-item-section>
-                    <q-item-section>
-                        <q-item-label>{{ u.name }}</q-item-label>
-                        <q-item-label caption>{{ u.email }}</q-item-label>
-                    </q-item-section>
-                    <q-avatar class="self-center" size="5px" :color="u.online? 'green': 'red'"></q-avatar>
-                </q-item>
+                        @click="goToChat(u)"
+                        v-for="u in filtered"
+                        :key="u.id"
+                        clickable
+                        tag="a"
+                        target="_blank"
+                        class="user"
+                        :class="{border: user.id === u.id}"
+                    >
+                        <q-item-section avatar>
+                            <q-avatar size="45px">
+                                <img
+                                    :src="`https://api.adorable.io/avatars/45/${u.id}.png`"
+                                    alt="user-avatar"
+                                />
+                            </q-avatar>
+                        </q-item-section>
+                        <q-item-section>
+                            <q-item-label>{{ u.name }}</q-item-label>
+                            <q-item-label caption>{{ u.email }}</q-item-label>
+                        </q-item-section>
+                        <q-avatar class="self-center" size="5px" :color="u.online? 'green': 'red'"></q-avatar>
+                    </q-item>
                 </transition-group>
-                
             </q-list>
         </q-drawer>
 
@@ -117,11 +117,12 @@ export default {
                 user => {
                     return user.name.toLowerCase().indexOf(this.query.toLowerCase()) !== -1
                 }
-            )
+            ).sort((a, b) => {
+                return a.id === this.user.id? -1: (b.id === this.user.id? 1: (a.online? -1: (b.online? 1: 0)));
+            })
         },
         loadSocketEvents: function() {
             this.$store.getters.socket.on("onlineUsers", values => {
-                console.log(values)
                 for (let i = 0; i < this.users.length; i++) {
                     this.users[i]["online"] = values.map(value => parseInt(value.user)).indexOf(parseInt(this.users[i].id)) > -1;
                 }
@@ -147,8 +148,12 @@ export default {
 };
 </script>
 
-<style>
+<style lang='scss'>
 .list-complete-move {
     transition: all 1s;
+}
+.border {
+    background-color: rgba($primary, .2);
+    color: $primary;
 }
 </style>

@@ -143,7 +143,6 @@ export default {
     watch: {
         $route: async function(to) {
             this.to.id = this.$route.params.to;
-            console.log('leaving')
             this.socket.emit('leaved', this.chat.id.toString());
             await this.verifyRoute();
             await this.getChat();
