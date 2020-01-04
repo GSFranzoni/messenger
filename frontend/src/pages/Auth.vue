@@ -97,6 +97,8 @@ export default {
                 message: "Please, wait! Loading resources..."
             });
         }
+    },
+    mounted: function() {
     }
 };
 </script>

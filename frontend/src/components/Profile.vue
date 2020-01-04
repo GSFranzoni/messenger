@@ -1,5 +1,5 @@
 <template>
-    <q-btn-dropdown flat label="Perfil">
+    <q-btn-dropdown v-if='user' flat label="Perfil">
         <div class="column justify-center items-center">
             <div class="column justify-center items-center q-ma-md">
                 <q-avatar size='120px'>

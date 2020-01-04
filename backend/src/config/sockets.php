@@ -38,7 +38,7 @@ $io->on('connection', function($socket) use ($io) {
         $socket->leave($chatId);
     });
     $socket->on('send', function($data) use ($socket) {
-        $socket->to($data['to'])->emit('message', array('message' => $data['message'], 'from' => $data['from'], 'moment' => $data['moment']));
+        $socket->to($data['to'])->emit('message', $data);
     });
 
     $socket->on('typing', function($data) use ($socket) {

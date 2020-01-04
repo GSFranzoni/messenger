@@ -9,6 +9,7 @@ export default function () {
         state: {
             user: null,
             users: [],
+            openMenu: false,
             io: require("socket.io-client")
         },
         mutations: {
@@ -20,6 +21,9 @@ export default function () {
             },
             setUsers: function(state, users) {
                 state.users = users;
+            },
+            setOpenMenu: function(state, open) {
+                state.openMenu = open;
             }
         },
         getters: {
@@ -31,6 +35,9 @@ export default function () {
             },
             socket: function(state) {
                 return state.io("http://localhost:3000");
+            },
+            openMenu: function(state) {
+                return state.openMenu;
             }
         },
         modules: {

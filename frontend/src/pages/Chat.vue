@@ -115,6 +115,7 @@ export default {
         configureSocket: function() {
             this.socket.emit("joined", this.chat.id.toString());
             this.socket.on("message", data => {
+                alert(JSON.stringify(data))
                 this.setMessage(data);
             });
             this.socket.on("typing", data => {
@@ -141,7 +142,7 @@ export default {
         this.configureSocket();
     },
     watch: {
-        $route: async function(to) {
+        $route: async function(to) {        
             this.to.id = this.$route.params.to;
             this.socket.emit('leaved', this.chat.id.toString());
             await this.verifyRoute();
