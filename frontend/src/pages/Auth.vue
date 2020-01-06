@@ -1,5 +1,5 @@
 <template>
-    <q-page class="row justify-center items-center">
+    <q-page class="auth row justify-center items-center">
         <q-card class="form">
             <q-card-section class='row justify-end'>
                 <div class='text-h4 q-ma-md text-primary'>{{ login? 'Login': 'Cadastro' }}</div>
@@ -38,14 +38,14 @@
                 <q-btn @click='signin' outline color='primary' icon-right="mail" label="Entrar"></q-btn>
             </q-card-section>
             <q-card-section v-else class='row justify-end'>
-                <q-btn @click='signin' outline color='primary' icon-right="mail" label="Cadastrar"></q-btn>
+                <q-btn @click='signup' outline color='primary' icon-right="mail" label="Cadastrar"></q-btn>
             </q-card-section>
         </q-card>
     </q-page>
 </template>
 
 <script>
-import { baseApiUrl } from '../global';
+import { baseApiUrl, successMessage, errorMessage } from '../global';
 import axios from 'axios';
 import { Loading, QSpinnerGears } from "quasar";
 
@@ -72,15 +72,23 @@ export default {
                     })
                     await this.loadUsers();
                     this.$store.getters.socket.emit("enter", this.$store.state.user.id);
+                    successMessage({message: 'Login realizado com sucesso!'});
                 }
             ).catch(e => {
-                alert(e.message)
+                errorMessage({message: e.response.data.message});
             }).finally(() => {
                 this.hideLoading();
             })
         },
         signup: function() {
-
+            axios.post(`${baseApiUrl}/users`, this.user).then(
+                response => {
+                    successMessage({message: response.data.message});
+                    this.signin();
+                }
+            ).catch(e => {
+                errorMessage({message: e.response.data.message});
+            })
         },
         loadUsers: async function() {
             await axios.get(`${baseApiUrl}/users`).then(response => {
@@ -111,5 +119,9 @@ export default {
 
 .pointer {
     cursor: pointer;
+}
+
+.auth {
+    background-color: #EEE;
 }
 </style>

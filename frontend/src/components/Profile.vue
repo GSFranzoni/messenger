@@ -18,7 +18,9 @@
 </template>
 
 <script>
+import { successMessage } from '../global';
 import { mapState, mapGetters } from 'vuex';
+
 export default {
     computed: {
         ...mapState(['user']),
@@ -32,6 +34,7 @@ export default {
             this.$router.push({
                 path: '/auth'
             });
+            successMessage({ message: 'Logout efetuado com sucesso!' });
         }
     }
 };

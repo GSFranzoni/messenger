@@ -1,3 +1,5 @@
+import { Notify } from 'quasar';
+
 export const baseApiUrl = 'http://localhost:8100';
 
 export const colors = [
@@ -22,4 +24,26 @@ export function getFormattedDate(date) {
     return dateStr;
 }
 
-export default { baseApiUrl, getRandomColor, getFormattedDate };
+export function successMessage({message, position='bottom'}) {
+    Notify.create({
+        message,
+        position,
+        icon: 'check_circle',
+        timeout: 3000,
+        textColor: 'white',
+        color: 'green'
+    });
+}
+
+export function errorMessage({message, position='bottom'}) {
+    Notify.create({
+        message,
+        position,
+        icon: 'cancel',
+        timeout: 3000,
+        textColor: 'white',
+        color: 'red'
+    });
+}
+
+export default { baseApiUrl, getRandomColor, getFormattedDate, successMessage, errorMessage };

@@ -1364,3 +1364,4 @@ Stack trace:
 2020-01-03 23:33:01 pid:8283 Workerman[sockets.php] stopping ...
 2020-01-03 23:33:01 pid:8283 Workerman[sockets.php] has been stopped
 2020-01-03 23:33:03 pid:15561 Workerman[src/config/sockets.php] start in DEBUG mode
+2020-01-06 13:07:02 pid:4252 Workerman[sockets.php] start in DEBUG mode

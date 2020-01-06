@@ -45,7 +45,7 @@
 import Gravatar from "vue-gravatar";
 import { mapState, mapGetters } from "vuex";
 import axios from "axios";
-import { baseApiUrl, getRandomColor, getFormattedDate } from "../global.js";
+import { baseApiUrl, getRandomColor, getFormattedDate, errorMessage } from "../global.js";
 
 export default {
     data: function() {
@@ -82,6 +82,10 @@ export default {
                 });
         },
         sendMessage: function() {
+            if(!this.message.length>0) {
+                errorMessage({ message: 'Mensagem inválida!', position: 'top' });
+                return;
+            }
             axios
                 .post(`${baseApiUrl}/messages`, {
                     _to: this.to.id,
@@ -101,6 +105,9 @@ export default {
                     this.socket.emit("send", msg);
                     this.setMessage(msg);
                     this.message = "";
+                }).catch(() => {
+                    errorMessage({ message: 'Mensagem inválida!', position: 'top' });
+                    return;
                 });
         },
         verifyRoute: async function() {
@@ -115,7 +122,6 @@ export default {
         configureSocket: function() {
             this.socket.emit("joined", this.chat.id.toString());
             this.socket.on("message", data => {
-                alert(JSON.stringify(data))
                 this.setMessage(data);
             });
             this.socket.on("typing", data => {
